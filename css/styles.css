@@ -1,0 +1,222 @@
+body {
+    text-align: center;
+}
+
+#title {
+    position: relative;
+    background-image: url("../images/IGF-4.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+#title h1 {
+    text-shadow: 3px 3px 3px green;
+    margin: 0 auto 50px;
+    padding-top: 80px;
+    font-weight: bold;
+}
+.big-heading {
+    margin: 50px 0;
+    font-weight: bold;
+}
+
+.text {
+    width: 60%;
+    margin: 0 auto 3%;
+    text-shadow: 3px 3px 3px green;
+}
+
+.button {
+    color: #FFF;
+    background-color: green;
+    padding-left: 45px;
+    padding-right: 45px;
+    margin-top: 30px;
+    margin-bottom: 100px; 
+}
+.button-news {
+    color: #FFF;
+    background-color: green;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+/* About-us Section */
+#about-us {
+    background-color: #FFF;
+}
+.about-text {
+    width: 50%;
+    margin: 0 auto 10px;
+}
+.green {
+    color: green;
+}
+.yellow {
+    color: yellow;
+}
+.counting-col {
+    margin-bottom: 20px;
+    
+}
+#counter {
+    width: 60%;
+    font-weight: bold;
+}
+#download {
+    background-image: url("../images/IGF-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#download h1 { 
+    color: green;
+    padding-top: 80px;
+}
+#news {
+    padding: 50px;
+}
+.news-card {
+    padding: 2% 3%;
+}
+.card-img-top {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+#speaker-one {
+    width: 200px;
+    height: 400px;
+    background-image: url("../images/speaker-1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+}
+#speaker-two {
+    width: 200px;
+    height: 400px;
+    background-image: url("../images/speaker-2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#speaker-three {
+    width: 200px;
+    height: 400px;
+    background-image: url("../images/speaker-3.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#speakers {
+    padding: 50px;
+}
+.speakers {
+    padding: 2% 1% 2% 8%;
+}
+.para {
+    color: #FFF;
+    background-color: green;
+    position: relative;
+    top: 250px;
+    line-height: 2;
+}
+#sponsors {
+    background-color: #fff;
+    padding-bottom: 3%;
+}
+.sponsor-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+hr {
+    border: solid 2px;
+    color: green;
+    opacity: 1;
+}
+#footer {
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+.info {
+    padding: 2% 3%;
+}
+.footer-icons {
+    margin: 20px 10px;
+    color: green;
+    border: solid 1px;
+    border-radius: 100%;
+    padding: 1%;
+}
+.slide-container{
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+  }
+  
+  .image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    position: relative;
+    row-gap: 5px;
+    
+  }
+  .card-imgs {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .swiper-navBtn{
+    color: #6E93f7;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #4070F4;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #6E93f7;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #4070F4;
+  }
+  
+@media (min-width: 670px) and (max-width: 767px) {
+    #speaker-three,#speaker-two,#speaker-one {
+        margin-left: 200px;
+    }
+}
+@media (min-width: 570px) and (max-width: 670px) {
+    #speaker-three,#speaker-two,#speaker-one {
+        margin-left: 120px;
+    }
+}
+@media (max-width: 570px) {
+    #speaker-three,#speaker-two,#speaker-one {
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width: 949px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
